@@ -6,11 +6,13 @@ import {
 import App from './app';
 import About from './components/About';
 import Sample from './components/Sample';
+import Navigation from './components/Navigation';
 import '../styles/index.scss';
 
 const Routes = () => (
   <Router>
     <div>
+      <Navigation />
       <Route exact path="/" component={App} />
       <Route path="/about" component={About} />
       <Route path="/sample" component={Sample} />

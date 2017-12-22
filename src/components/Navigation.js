@@ -1,16 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import LinkButton from './LinkButton';
 
-const Navigation = () => (
-  <div>
-    <ul>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li><Link to="/about">About</Link></li>
-      <li><Link to="/sample">Sample</Link></li>
-    </ul>
-  </div>
-);
+const Navigation = () => {
+  return (
+    <div>
+      <LinkButton to="/" label="Home" />
+      <LinkButton to="/about" label="About" />
+      <LinkButton to="/sample" label="Sample" />
+    </div>
+  );
+};
 
 export default Navigation;
