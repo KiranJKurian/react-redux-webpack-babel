@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alicoding/react-webpack-babel"
+    "url": "https://github.com/KiranJKurian/react-webpack-babel"
   },
-  "author": "Ali Al Dallal",
+  "author": "Kiran Kurian",
   "license": "MIT",
-  "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
+  "homepage": "https://github.com/KiranJKurian/react-webpack-babel#readme",
   "dependencies": {
     "material-ui": "^0.20.0",
     "node-sass": "^4.7.2",
